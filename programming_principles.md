@@ -5,9 +5,9 @@ This article is brought to you by organic, pure-bred thought and subjective rati
 
 # Introduction 
 
-Throughout my comparatively programming career I have had the pleasure to experience how unlike any other discipline programming and software engineering is from any other activity I have attemped before.
+Throughout my developer career I have had the pleasure to experience how unlike any other discipline programming and software engineering is from any other activity I have attemped before.
 
-It has the capacity to bring intense feelings of joy and satisfaction, not only from the problem solving, but from the struggle, the challenge, the growth. I have been pretty lucky to work with talented developers, from whom I have learned a lot. I have seen many different ways of solving the same problem, and have started to _form opinions_. 
+It has the capacity to bring intense feelings of joy and satisfaction, not only from the problem solving, but from the struggle, the challenge, the growth. I have been pretty lucky to work with talented developers, from whom I have learned a lot. 
 
 The discipline, however, is far from a tranquil walk in the park. It can drain you, mentally and emotionally. On numerous occasions I have experienced the exhaustion that comes from thinking about a problem for hours on end, only to discover the answer seemingly on a whim the next day.
 It makes you keenly aware of your shortcomings, whether they are in faulty reasoning, misunderstood requirements, a lack of education, unused systems thinking, interactions with time management - the list is long. 
@@ -16,10 +16,14 @@ Nevertheless, you get better at recognizing these shortcomings, you get faster a
 
 ## So, why the yapping?
 
+I have seen many different ways of solving the same problem, and have started to _form opinions_. 
+
 With this article, I want to distill and, as neatly as is possible for me, externalize my thoughts and share my current approach to problem solving. 
 I want to sprinkle some tidbits of knowledge and concepts that I find to be the most bang for your buck, as they were for me.
 
 I am not pretending to have introduced a Revolutionary New Paradigm, what you will read (thanks, btw) below is embarrasingly self-evident. 
+
+Before we dive in, I want to mention that I plan to tackle other topics that I hold close to heart in the next posts. Stay tuned for some exploration of Data-Oriented Design, OOP and DDD.
 
 # How I tackle problems: Trace-Validate-Test
 
@@ -168,3 +172,7 @@ If you're still with me then thanks for taking the time to read the above. As a 
 - What does failure look like?
 - What tradeoffs am I hardcoding in?
 
+
+# What's next?
+
+In the next post we will take a look at some 

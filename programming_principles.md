@@ -18,14 +18,18 @@ Nevertheless, you get better at recognizing these shortcomings, you get faster a
 
 I have seen many different ways of solving the same problem, and have started to _form opinions_. 
 
-With this article, I want to distill and, as neatly as is possible for me, externalize my thoughts and share my current approach to problem solving. 
 I want to sprinkle some tidbits of knowledge and concepts that I find to be the most bang for your buck, as they were for me.
 
-I am not pretending to have introduced a Revolutionary New Paradigm, what you will read (thanks, btw) below is embarrasingly self-evident. 
+I am not pretending to have introduced a Revolutionary New Paradigm, what you will read below is embarrasingly self-evident. 
 
-Before we dive in, I want to mention that I plan to tackle other topics that I hold close to heart in the next posts. Stay tuned for some exploration of Data-Oriented Design, OOP and DDD.
+Before we dive in, I want to mention that I plan to tackle other topics that I hold close to heart in the next posts. An an amuse-bouche:
+
+- "Embracing Data-Oriented Design, or how I learned to stop OOPing, and to love and cherish the CPU."
+- "I DDDon't think you need DDD."
 
 # How I tackle problems: Trace-Validate-Test
+
+Within this article, I want to distill and, as neatly as is possible for me, externalize my thoughts and share my current approach to problem solving. 
 
 TVT is an intentionally minimal, expressive set of questions. You can think of it as a structured reasoning operator over any step, assumption, or decision. 
 

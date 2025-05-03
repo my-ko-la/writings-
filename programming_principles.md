@@ -5,15 +5,14 @@ This article is brought to you by organic, pure-bred thought and subjective rati
 
 # Introduction 
 
-Throughout my comparatively short programming career I have had the pleasure to experience how unlike any other discipline programming, or, perhaps more appropriately, software engineering [[EDIT: why is it more appopriate]] is different from any other activity I have attemped before.
+Throughout my comparatively programming career I have had the pleasure to experience how unlike any other discipline programming and software engineering is from any other activity I have attemped before.
 
-It has the capacity to bring intense feelings of joy and satisfaction, not only from the problem solving, but from the struggle, the challenge, the growth. I have been pretty lucky to work with talented developers, from whom I have learned a lot. XX_random?
+It has the capacity to bring intense feelings of joy and satisfaction, not only from the problem solving, but from the struggle, the challenge, the growth. I have been pretty lucky to work with talented developers, from whom I have learned a lot. I have seen many different ways of solving the same problem, and have started to _form opinions_. 
 
-The discipline, however, is far from a tranquil walk in the park. It can drain you, mentally and emotionally. On numerous occasions I have experienced the exhaustion that comes from thinking about a problem for hours on end, only to discover the answer seemingly on a whim the next day (surprisingly, quite often while being in a room that has all the properties of a bathroom) [[EDIT: this joke can be made better]]. 
-
+The discipline, however, is far from a tranquil walk in the park. It can drain you, mentally and emotionally. On numerous occasions I have experienced the exhaustion that comes from thinking about a problem for hours on end, only to discover the answer seemingly on a whim the next day.
 It makes you keenly aware of your shortcomings, whether they are in faulty reasoning, misunderstood requirements, a lack of education, unused systems thinking, interactions with time management - the list is long. 
 
-You get better at recognizing these shortcomings, you get faster at overcoming them, to the point where they do not require active cognitive attention, and are essentially baked into your logic when designing and developing software. Yet, you still find yourself making errors, ranging from a simple "I left a typo in the log" oopsie to a production-breaking fucky-wucky.
+Nevertheless, you get better at recognizing these shortcomings, you get faster at overcoming them, to the point where they do not require active cognitive attention, and are essentially baked into your logic when designing and developing software. Yet, you still find yourself making errors, ranging from a simple "I left a typo in the log" oopsie to a production-breaking fucky-wucky.
 
 ## So, why the yapping?
 
@@ -46,7 +45,7 @@ VALIDATE asks: "is this step _necessary_, _minimal_, and does it preserve the pr
 
 We want answers to the following: 
 
- Is this the simplest expression of the idea?
+- Is this the simplest expression of the idea?
     
 - Is it necessary, or just familiar?
     
@@ -114,8 +113,3 @@ Transforming a void into a manageable and recognizable shape makes analysis poss
 3. I am my own reviewer.
 
 I assume that there are problems, and, naturally, I find them and remove them.
-
-
-# Sources
-
-"Data-Oriented Design: software engineering for limited resources and short schedules" - Richard Fabian

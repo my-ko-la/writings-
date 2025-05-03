@@ -96,7 +96,7 @@ After the decision have been defined, I start aggressively applying TVT, in orde
 
 # Why does it work for me?
 
-1. I am slowing down. My personal brand of the tism dictates that I move to writing the code faster than I would like to, before having a clear picture in my head. Slowing down lets me take a more involved look at the design of the solution, find bugs, question my approach. To have a dialogue with the code.
+1. I am slowing down. I tend to rush to code before I’ve thought things through, before having a clear picture in my head. Slowing down lets me take a more involved look at the design of the solution, find bugs, question my approach. To have a dialogue with the code.
 
 2. I am giving shape to my thought. Inspired by psychology: we need to talk about the problem in order to give it a grounding in the real world via words and symbols.Transforming abstract thoughts into a manageable and recognizable shape makes analysis possible.
 

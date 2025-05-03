@@ -113,7 +113,7 @@ After the decision have been defined, I start aggressively appling TVT, in order
 
 If you're still with me then thanks for taking the time to read the above. As a farewell gift, allow me to show you how TVT can be expanded to cover not only code, but 
 
-## 🏗️ SYSTEM DESIGN
+## SYSTEM DESIGN
 
 ### TRACE
 - What user or business needs drove this?
@@ -132,7 +132,7 @@ If you're still with me then thanks for taking the time to read the above. As a 
 
 ---
 
-## 🧬 TYPE / DATA DESIGN
+## TYPE / DATA DESIGN
 
 ### TRACE
 - What domain concept is modeled?
@@ -151,7 +151,7 @@ If you're still with me then thanks for taking the time to read the above. As a 
 
 ---
 
-## 🧠 ALGORITHM SELECTION
+## ALGORITHM SELECTION
 
 ### TRACE
 - What are the input size, shape, and characteristics?

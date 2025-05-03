@@ -17,12 +17,10 @@ You get better at recognizing these shortcomings, you get faster at overcoming t
 
 ## So, why the yapping?
 
-With this article, I want to distill and, as neatly as is possible for me, formalize my findings and highlight my current approach to problem solving. I want to sprinkle some tidbits of knowledge and concepts that I find to be the most bang for your buck, so that you do not spend hours doing fuck all, rather than making the computer do work. XX_idea is great but I don't like the phrasing 
+With this article, I want to distill and, as neatly as is possible for me, externalize my thoughts and share my current approach to problem solving. 
+I want to sprinkle some tidbits of knowledge and concepts that I find to be the most bang for your buck, as they were for me.
 
-If at any point while reading you find yourself thinking that I am throwing some shade at common and popular programming concepts, you are not wrong. I have spent a not-insignificant amount of time wrestling with the framework, rather than contributing to the solution; and I want revenge.
-
-As someone who is self-taught, I like to think that I have an outsider's perspective, and I am not beholder to the jaws of familiarity that for some have been closed since their uni years. 
-My objective is to make devs consider a simpler approach. (And for recruiters to see that I, like, a good investment). 
+I am not pretending to have introduced a Revolutionary New Paradigm, what you will read (thanks, btw) below is embarrasingly self-evident. 
 
 # How I tackle problems: Trace-Validate-Test
 
@@ -77,30 +75,45 @@ We want to figure out the blast radius of the decision, see how system topology 
 
 Unless you are writing code that is responsible for human lives, it can be hard to justify applying TVT at every decision. 
 
-In my workflow, I usually write the prototype code first, staying very much aware of the fact that it IS a prototype, and that it's purpose is to be _changed_, maybe even  _thrown away entirely_.
+In my workflow, I usually write the prototype code first, staying very much aware of the fact that it IS a prototype, and that it's purpose is to be _changed_, maybe even _thrown away entirely_.
 
-I then split the written code into Decisions. These are subjective, and I believe are best shown by example rather than via definition: 
+I then split the written code into Decisions. These are subjective, and I believe are best shown by example:
 
 - our application has received some form of communication, we need to check whether the data inside the payload is correct and usable for our code, i.e. payload parsing / validation. 
-
 - we need to find all items in our ecommerce shop that fit a certain condition, i.e. database access.
-
 - we must mutate some data, filter it, emit it, or generate new data, i.e. processing.
-
-- we must handle the different issues that can arise withing the global codepath, i.e. error handling.
-
+- we must handle the different issues that can arise withing the codepaths, i.e. error handling.
 - we must be able to understand what is going without performing live surgery on the running app, i.e. logging.
-
 - we must be able give the user the ability to "do something", i..e. UI.
 
-Mix and match these and you get software. Mix and match software and you get systems. 
+Think in terms of:
 
-Things go out out control fast: the least we can do is to make sure that our code is CORRECT and RIGOROUS. 
+- Introducing a **new structure**, **assumption**, or **constraint**
+- **Function signatures**
+- **Data type definitions / transformations**
+- Creating a **dependency** or **coupling**
+- Encoding **invariants**, **transitions**, or **side effects**
+- **Control flow decisions** (branching, recursion)
+- **Resource boundaries** (IO, state, async, concurrency)
+- **Interfacing with external systems** (APIs, DBs, queues)
 
+After the decision have been defined, I start aggressively appling TVT, in order of appearance of the decision within the flow of the code/data. 
 
+# Why does it work for me?
 
+1. I am slowing down. 
 
+My personal brand of the tism dictates that I move to writing the code as faster than I would like to, before having a clear picture in my head. 
+Slowing down lets me take a more involved look at the design of the solution, find bugs, question my approach. To have a dialogue with the code.
 
+2. I am giving shape to my thought. 
+
+Inspired by psychology: we need to talk about the problem in order to give it a grounding in the real world via words and symbols. 
+Transforming a void into a manageable and recognizable shape makes analysis possible.
+
+3. I am my own reviewer.
+
+I assume that there are problems, and, naturally, I find them and remove them.
 
 
 # Sources

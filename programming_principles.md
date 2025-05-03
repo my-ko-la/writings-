@@ -70,7 +70,7 @@ We want to figure out the blast radius of the decision, see how system topology 
 
 Unless you are writing code that is responsible for human lives, it can be hard to justify applying TVT at every decision. 
 
-In my workflow, I usually write the prototype code first, staying very much aware of the fact that it IS a prototype, and that its purpose is to be _changed_, maybe even _thrown away entirely_.
+In my workflow, I usually write the prototype code first, staying very much aware of the fact that it IS a prototype, and that its purpose is to be _changed_, even _thrown away entirely_.
 
 I then split the written code into Decisions. These are subjective, and I believe are best shown by example:
 

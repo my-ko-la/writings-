@@ -8,7 +8,7 @@ This article is brought to you by organic, pure-bred thought and subjective rati
 Programming isn’t like any other craft — it thrives on struggle as much as insight. You prototype fast, hit dead-ends, then wake up with solutions.
 
 I have seen many different ways of solving the same problem, and have started to _form opinions_. 
-I want to share some tidbits of these _opinions_, ones I find can be useful for you, as they were for me.
+I want to share some of these _opinions_, ones I find can be useful for you, as they were for me.
 
 I am not pretending to have introduced a Revolutionary New Paradigm, what you will read below is embarrasingly self-evident.
 

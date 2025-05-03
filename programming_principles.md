@@ -100,16 +100,71 @@ After the decision have been defined, I start aggressively appling TVT, in order
 
 # Why does it work for me?
 
-1. I am slowing down. 
+1. I am slowing down. My personal brand of the tism dictates that I move to writing the code as faster than I would like to, before having a clear picture in my head. Slowing down lets me take a more involved look at the design of the solution, find bugs, question my approach. To have a dialogue with the code.
 
-My personal brand of the tism dictates that I move to writing the code as faster than I would like to, before having a clear picture in my head. 
-Slowing down lets me take a more involved look at the design of the solution, find bugs, question my approach. To have a dialogue with the code.
+2. I am giving shape to my thought. Inspired by psychology: we need to talk about the problem in order to give it a grounding in the real world via words and symbols.Transforming abstract thoughts into a manageable and recognizable shape makes analysis possible.
 
-2. I am giving shape to my thought. 
+3. I am my own reviewer. I assume that there are problems, and, naturally, I find them and remove them.
 
-Inspired by psychology: we need to talk about the problem in order to give it a grounding in the real world via words and symbols. 
-Transforming a void into a manageable and recognizable shape makes analysis possible.
+4. I am getting more confident about the code, and am improving the rigor required to guarantee correct execution.
 
-3. I am my own reviewer.
 
-I assume that there are problems, and, naturally, I find them and remove them.
+# Closing words
+
+If you're still with me then thanks for taking the time to read the above. As a farewell gift, allow me to show you how TVT can be expanded to cover not only code, but 
+
+## 🏗️ SYSTEM DESIGN
+
+### TRACE
+- What user or business needs drove this?
+- What implicit constraints shape it? (SLA, cost, failures)
+- What real-world process does it abstract?
+
+### VALIDATE
+- Are responsibilities correctly bounded?
+- Are invariants enforced? Where?
+- Is the scope minimal or conflated?
+
+### TEST
+- What couplings does this introduce?
+- What failure modes emerge (runtime/scale/deploy)?
+- How does this shape the evolution of the system?
+
+---
+
+## 🧬 TYPE / DATA DESIGN
+
+### TRACE
+- What domain concept is modeled?
+- What abstraction level is this? (semantic/structural/protocol)
+- Is it for logical clarity or implementation convenience?
+
+### VALIDATE
+- Does it prevent illegal states?
+- Are all invariants encoded?
+- Is it the minimal viable structure?
+
+### TEST
+- Who depends on this type now?
+- What versioning/migration pain is created?
+- How extensible is it without leaking abstraction?
+
+---
+
+## 🧠 ALGORITHM SELECTION
+
+### TRACE
+- What are the input size, shape, and characteristics?
+- Is this problem exact, approximate, or heuristic?
+- What prior patterns does it resemble?
+
+### VALIDATE
+- Is the algorithm optimal for the intended input profile?
+- Are time/space/resource bounds provable?
+- Are hidden assumptions safe?
+
+### TEST
+- How does it integrate with surrounding layers?
+- What does failure look like?
+- What tradeoffs am I hardcoding in?
+

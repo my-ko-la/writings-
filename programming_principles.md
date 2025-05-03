@@ -3,24 +3,14 @@
 
 This article is brought to you by organic, pure-bred thought and subjective rationality - no AI tools were used to articulate, edit, influence, or in any form interact with the contents of the article. I think AI can be used in cool ways, even productive ones - but _I_ like writing, so _I_ will write. 
 
-# Introduction 
+# Why the yapping?
 
-Throughout my developer career I have had the pleasure to experience how unlike any other discipline programming and software engineering is from any other activity I have attemped before.
-
-It has the capacity to bring intense feelings of joy and satisfaction, not only from the problem solving, but from the struggle, the challenge, the growth. I have been pretty lucky to work with talented developers, from whom I have learned a lot. 
-
-The discipline, however, is far from a tranquil walk in the park. It can drain you, mentally and emotionally. On numerous occasions I have experienced the exhaustion that comes from thinking about a problem for hours on end, only to discover the answer seemingly on a whim the next day.
-It makes you keenly aware of your shortcomings, whether they are in faulty reasoning, misunderstood requirements, a lack of education, unused systems thinking, interactions with time management - the list is long. 
-
-Nevertheless, you get better at recognizing these shortcomings, you get faster at overcoming them, to the point where they do not require active cognitive attention, and are essentially baked into your logic when designing and developing software. Yet, you still find yourself making errors, ranging from a simple "I left a typo in the log" oopsie to a production-breaking fucky-wucky.
-
-## So, why the yapping?
+Programming isn’t like any other craft—it thrives on struggle as much as insight. You prototype fast, hit dead-ends, then wake up with solutions.
 
 I have seen many different ways of solving the same problem, and have started to _form opinions_. 
-
 I want to share some tidbits of these _opinions_, ones I find can be useful for you, as they were for me.
 
-I am not pretending to have introduced a Revolutionary New Paradigm, what you will read below is embarrasingly self-evident. 
+I am not pretending to have introduced a Revolutionary New Paradigm, what you will read below is embarrasingly self-evident.
 
 ## Before we dive in
 
@@ -55,11 +45,7 @@ VALIDATE asks: "is this step _necessary_, _minimal_, and does it preserve the pr
 
 We want answers to the following: 
 
-- Is this the simplest expression of the idea?
-    
 - Is it necessary, or just familiar?
-    
-- What invariants does this step enforce or violate?
     
 - What failure modes exist? Can I create an illegal state?
 
@@ -91,9 +77,9 @@ I then split the written code into Decisions. These are subjective, and I believ
 - our application has received some form of communication, we need to check whether the data inside the payload is correct and usable for our code, i.e. payload parsing / validation. 
 - we need to find all items in our ecommerce shop that fit a certain condition, i.e. database access.
 - we must mutate some data, filter it, emit it, or generate new data, i.e. processing.
-- we must handle the different issues that can arise withing the codepaths, i.e. error handling.
+- we must handle the different issues that can arise within the codepaths, i.e. error handling.
 - we must be able to understand what is going without performing live surgery on the running app, i.e. logging.
-- we must be able give the user the ability to "do something", i..e. UI.
+- we must be able give the user the ability to "do something", i.e. UI.
 
 Think in terms of:
 
@@ -106,7 +92,7 @@ Think in terms of:
 - **Resource boundaries** (IO, state, async, concurrency)
 - **Interfacing with external systems** (APIs, DBs, queues)
 
-After the decision have been defined, I start aggressively appling TVT, in order of appearance of the decision within the flow of the code/data. 
+After the decision have been defined, I start aggressively applying TVT, in order of appearance of the decision within the flow of the code/data. 
 
 # Why does it work for me?
 
@@ -151,7 +137,7 @@ If you're still with me then thanks for taking the time to read the above. As a 
 ### VALIDATE
 - Does it prevent illegal states?
 - Are all invariants encoded?
-- Is it the minimal viable structure?
+- Is it the minimally viable structure?
 
 ### TEST
 - Who depends on this type now?

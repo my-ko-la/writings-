@@ -1,7 +1,7 @@
 
 # Disclaimer 
 
-This article is brought to you by organic, pure-bred thought and subjective rationality - no AI tools were used to articulate, edit, influence, or in any form interact with the contents of the article.
+This article is brought to you by organic, pure-bred thought and subjective rationality - no AI tools were used to articulate, edit, influence, or in any form interact with the contents of the article. I think AI can be used in cool ways, even productive ones - but _I_ like writing, so _I_ will write. 
 
 # Introduction 
 
@@ -18,11 +18,13 @@ Nevertheless, you get better at recognizing these shortcomings, you get faster a
 
 I have seen many different ways of solving the same problem, and have started to _form opinions_. 
 
-I want to sprinkle some tidbits of knowledge and concepts that I find to be the most bang for your buck, as they were for me.
+I want to share some tidbits of these _opinions_, ones I find can be useful for you, as they were for me.
 
 I am not pretending to have introduced a Revolutionary New Paradigm, what you will read below is embarrasingly self-evident. 
 
-Before we dive in, I want to mention that I plan to tackle other topics that I hold close to heart in the next posts. An an amuse-bouche:
+## Before we dive in
+
+I want to mention that I plan to tackle other topics that I hold close to heart in the next posts. Let me know what you think of the names: 
 
 - "Embracing Data-Oriented Design, or how I learned to stop OOPing, and to love and cherish the CPU."
 - "I DDDon't think you need DDD."
@@ -176,7 +178,3 @@ If you're still with me then thanks for taking the time to read the above. As a 
 - What does failure look like?
 - What tradeoffs am I hardcoding in?
 
-
-# What's next?
-
-In the next post we will take a look at some 

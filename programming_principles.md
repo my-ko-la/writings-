@@ -16,8 +16,8 @@ I am not pretending to have introduced a Revolutionary New Paradigm, what you wi
 
 I want to mention that I plan to tackle other topics that I hold close to heart in the next posts. Let me know what you think of the names: 
 
-- "Embracing Data-Oriented Design, or how I learned to stop OOPing, and to love and cherish the CPU."
-- "I DDDon't think you need DDD."
+- "Embracing Data-Oriented Design, cache lines and how to love and cherish the CPU."
+- "Does the code itself need DDD?"
 
 # How I tackle problems: Trace-Validate-Test
 
@@ -91,6 +91,12 @@ Think in terms of:
 - **Interfacing with external systems** (APIs, DBs, queues)
 
 After the decision have been defined, I start aggressively applying TVT, in order of appearance of the decision within the flow of the code/data. 
+
+# Example use case
+
+todo()!
+- something NestJS-y 
+- db, validation, types, invariant holding...
 
 # Why does it work for me?
 

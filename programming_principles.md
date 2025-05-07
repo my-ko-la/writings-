@@ -108,6 +108,8 @@ todo()!
 
 4. I am getting more confident about the code, and am improving the rigor required to guarantee correct execution.
 
+5. I am being pushed into thinking hollistically about the code, and where it fits within the existing system, or how it will integrate with newer ones.
+
 # Closing words
 
 If you're still with me then thanks for taking the time to read the above. As a farewell gift, allow me to show you how TVT can be expanded to cover not only code: 
